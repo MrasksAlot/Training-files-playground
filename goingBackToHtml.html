@@ -1,0 +1,669 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- to define content encoding -->
+    <meta charset="UTF-8">
+    <!-- Content security - Provides an HTTP header for the information/value of the content attribute -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- A tag that creates a title for the page that appears in tab  -->
+    <title>Hazem's door_HTML</title>
+    <!-- Setting the viewport to make your website look good on all devices  -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- A tag that sets the page description   -->
+    <meta name="description" content="A page specially made for when i need to write html ">
+    <!-- Define the author of a page:   -->
+    <meta name="author" content="Hazem Khaled Ali">
+    <!-- A tag that helps the search engine tie the website to keysearch words .. keywords are comma seperated   -->
+    <meta name="keywords" content="HTML, hazem">
+    <!-- Refreach the page every certain amount of seconds  -->
+    <meta http-equiv="refresh" content="6000">
+
+    <style>
+
+    </style>
+
+    <script>
+
+    </script>
+
+</head>
+
+<body>
+    <h1>welcoem to my hx examples >> (this is h1)</h1>
+    <br>
+    <h2>HTML stands for hyper text markup language >> (this is h2)</h2>
+    <br>
+    <hr>
+    <h3>(this is >> H3)</h3>
+    <h4>(this is >> h4)</h4>
+    <h5>(this is >> h5)</h5>
+    <h6>(this is >> h6)</h6>
+
+    <hr>
+
+    <strong>This is strong tag or b tag</strong>
+    <br>
+    <i>This is i = italic</i>
+    <br>
+    <em>This is em</em>
+    <br>
+    <mark>this is mark tag</mark>
+    <br>
+    <u>This is u = underline</u>
+    <br>
+    <tt>This is tt = typewriter text</tt>
+    <br>
+    <var>This is var = variable text </var>
+    <br>
+    <cite>This is cite = short citation </cite>
+    <br>
+    <dfn>This is dfn = defined term</dfn>
+    <br>
+    <del>This is del = deleted </del>
+    <hr>
+
+
+
+
+    <h3>this is an example of the anchor tag that will direct you to the site in a new-tab
+        <a href="https: //www.google.com/" target="_blank">Google link</a>
+    </h3>
+    <hr>
+    <h4>using placeholder.com to get certain sized images as follow , note that if we write
+        <br>
+        the number one time it means height&width are the same , after size image color than text color
+    </h4>
+    <img decoding="auto" src="https://via.placeholder.com/100/fc0b03/050505?text=Russia" alt="Russia">
+    <img decoding="auto" src="https://via.placeholder.com/100/faeb19/050505?text=Egypt" alt="Egypt">
+    <img decoding="auto" src="https://via.placeholder.com/100/4ae063/050505?text=USA" alt="USA">
+
+    <br>
+    <ul>
+        Kindly note that the decoding property of the HTMLImageElement interface represents a hint <br>
+        given to the browser on how it should decode the image.
+        <li>sync: Decode the image synchronously for atomic presentation with other content.</li>
+        <li>async:Decode the image asynchronously to reduce delay in presenting other content.</li>
+        <li>auto:Default mode, which indicates no preference for the decoding mode. The browser decides what is best for
+            the user.</li>
+    </ul>
+    <hr>
+    <h3>list practice , ol , ul , discription list and manipulating the order/numbering</h3>
+    <h4>My Skills</h4>
+    <ul>
+        <li>HTML</li>
+        <li>css</li>
+        <li>javascript</li>
+        <ul>
+            <li>Vuejs</li>
+            <li>Reactjs</li>
+            <li>Angular</li>
+            <ol start="4">
+                <li>an ordered list that start at number x</li>
+                <li>to get this you can add property start="x" to the ol tag</li>
+
+            </ol>
+            <li>Svelte</li>
+        </ul>
+
+        <li>python</li>
+    </ul>
+    <br>
+    <br>
+    <ul>
+        <li>One
+            <ol type="A" start="3">
+                <li>count in capital letters </li>
+                <li>start at the third capital letter </li>
+                <li>add type="A" start="3" to the ol tag</li>
+            </ol>
+        </li>
+        <li>Two
+            <ol type="i" start="iii">
+                <li>count in small roman letters</li>
+                <li>start at iii which is basically three</li>
+                <li>add type="i" start="iii" to the ol tag</li>
+            </ol>
+        </li>
+        <li>Three
+            <ol type="a" start="3" reversed>
+                <li>count in small letters </li>
+                <li>start at the third capital letter </li>
+                <li>add type="a" start="3" to the ol tag</li>
+            </ol>
+        </li>
+    </ul>
+    <br>
+
+    <h3>description list example</h3>
+    <dl>
+        <dt>Term 1</dt>
+        <dd>Description of term 1</dd>
+
+        <dt>Term 2</dt>
+        <dd>Description of term 2</dd>
+
+        <dt>Term 3</dt>
+        <dd>Description of term 3</dd>
+    </dl>
+
+    <br>
+    <br>
+
+    <!--
+ How to use an image as a link:
+<a href="https://www.w3schools.com">
+    <img border="0" alt="W3Schools" src="logo_w3s.gif" width="100" height="100">
+    </a> 
+
+How to open a link in a new browser window:
+<a href="https://www.w3schools.com" target="_blank">Visit W3Schools.com!</a> 
+
+How to link to a JavaScript:
+<a href="javascript:alert('Hello World!');">Execute JavaScript</a>  
+-->
+
+    <h3>Most common Uses of the anchor tag and the values of its target attribute</h3>
+    <ol>
+        <li>Link an External page</li>
+        <li>Link an email or telephone</li>
+        <li>intiate a download</li>
+        <li>call javascript to action</li>
+    </ol>
+    <br>
+    <ol>
+        <li>_blank : Opens the link in a new tab </li>
+        <li>_self : Opens the link in the same tab >> try Elephant </li>
+        <li>there are other values that you can look up (parent - framename - top) , i'm not gonna use them here</li>
+    </ol>
+
+    <br>
+    <br>
+
+    <h2>Table examples </h2>
+    <table style="width: 100%;" align="center" border="2" summary="My clients">
+        <caption>A list of my clients</caption>
+
+        <thead>
+            <tr>
+                <th>Group</th>
+                <th>Color</th>
+                <th>Name</th>
+                <th>Location</th>
+                <th>abbreviation</th>
+                <th>wikipidia link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Forigners</td>
+                <td><img decoding="auto" src="https://via.placeholder.com/40x40/fc0b03/050505?text=Russia" alt="Russia">
+                </td>
+                <td>Russia</td>
+                <td>Europe</td>
+                <td>RSA</td>
+                <td><a href="https://en.wikipedia.org/wiki/Russia" target="_blank">Read about Russia</a></td>
+            </tr>
+            <tr>
+                <td> <img decoding="auto" src="https://via.placeholder.com/40x40/4ae063/050505?text=USA" alt="USA"></td>
+                <td>United states</td>
+                <td>North America
+                    <hr style="font-size: x-small;">
+                    South America
+                </td>
+                <td>USA</td>
+                <td><a href="https://en.wikipedia.org/wiki/United_States" target="_blank">Read about USA</a></td>
+            </tr>
+            <tr>
+                <td>Egyptian</td>
+                <td><img decoding="auto" src="https://via.placeholder.com/40x40/faeb19/050505?text=Egypt" alt="Egypt">
+                </td>
+                <td>Egypt</td>
+                <td>Africa</td>
+                <td>EG</td>
+                <td><a href="https://en.wikipedia.org/wiki/Egypt" target="_blank">Read about Egypt</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4"> Join my exisiting clients now and get a discount</td>
+                <td colspan="2" align="center">You'll be the 4th </td>
+            </tr>
+        </tfoot>
+        <br>
+        <br>
+    </table>
+    <br>
+    <br>
+    <table style="width: 70%;" style="font-size: x-large;" border="1" align="center">
+        <caption>Students' Grades</caption>
+        <thead>
+            <tr>
+                <th>Month</th>
+                <th>Name</th>
+                <th>Grades</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="4">March</td>
+                <td>Hazem</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Karim</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Nour</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Souaad</td>
+                <td>100</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+
+    </table>
+    <br>
+    <br>
+    <table style="width: 70%; height: 10cm;" border="3">
+        <caption>Year's result</caption>
+
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Group</th>
+                <th>Language</th>
+                <th>Done</th>
+                <th>Passed</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5"> 2022</td>
+                <td rowspan="2">ElZero</td>
+                <td>HTML</td>
+                <td colspan="2">Yes</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td colspan="2">Yes</td>
+
+            </tr>
+            <tr>
+                <td rowspan="3">Heroes</td>
+                <td>Js</td>
+                <td>Yes</td>
+                <td>NO</td>
+            </tr>
+            <tr>
+                <td>PHP</td>
+                <td colspan="2">Yes</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>NO</td>
+                <td>NO</td>
+            </tr>
+        </tbody>
+        <tfoot></tfoot>
+    </table>
+    <br>
+    <h4 style="text-align: center;">تكليفات الدروس من الدرس 19 إلى 23 </h4>
+    <ol>
+        <h5> ما هي العناصر الموجودة في اللغة من العناصر التالية </h5>
+        <li>Header :exist</li>
+        <li>Nav :exist</li>
+        <li>Main :exist</li>
+        <li>Aside :exist</li>
+        <li>Picture :exist </li>
+        <li>Figure :exist </li>
+        <li>Footer :exist </li>
+        <li>FigCaption :exist </li>
+        <li>Section :exist</li>
+        <li>Command :does not exist </li>
+        <li>Ruby :exist</li>
+        <li>Data :does not exist</li>
+        <li>Article :exist </li>
+        <li>Install :does not exist </li>
+        <li>Text :does not exist </li>
+    </ol>
+    <hr>
+    <header>
+        <h1 align="center"> Here is the header : My favourite animals</h1>
+    </header>
+    <img src="images-videos-sounds\Semantic elements .PNG" alt="the semantic elements we are using">
+    <p>a navigation bar is listed below : by default hyper links open in the same tab , if you want to change that
+        you can use the target attribute and assign these values for your desired result
+
+    </p>
+    <br>
+    <nav style="background-color: blanchedalmond;">
+        <a href="https://en.wikipedia.org/wiki/Wolf" target="_blank">Wolf</a>
+        <a href="https://en.wikipedia.org/wiki/Elephant" target="_self">Elephant</a>
+        <a href="https://en.wikipedia.org/wiki/Cattle" target="_blank">Cattle</a>
+        <a href="https://en.wikipedia.org/wiki/Dog" target="_blank">Dog</a>
+    </nav>
+    <br>
+    <br>
+    <h4>This is the Aside</h4>
+    <aside>
+        <h4>Youtube channels with contents about the animal kingdom</h4>
+        <ul>
+            <li>BBC Earth</li>
+            <li>The Birders Show</li>
+            <li>Wild Your Garden With Joel Ashton</li>
+            <li>Latest Sightings</li>
+            <li>Maasai Sightings</li>
+        </ul>
+    </aside>
+
+    <section align="right">
+        <article>
+            <h3> Herbivores </h3>
+            <h4>A herbivore is an animal anatomically and physiologically adapted to eating plant material</h4>
+            <img src="" alt="Herbivores">
+            <a href="https://en.wikipedia.org/wiki/Herbivore" target="_blank"> Click here to read more </a>
+        </article>
+        <hr>
+        <article>
+            <h3> Carnivores </h3>
+            <h4>an animal or plant whose food and energy requirements derive from animal tissues </h4>
+            <img src="" alt="Carnivores">
+            <a href="https://en.wikipedia.org/wiki/Carnivore" target="_blank"> Click here to read more </a>
+
+        </article>
+
+        <hr>
+
+        <article>
+            <h3> Omnivores </h3>
+            <h4>An omnivore is an animal that has the ability to eat and survive on both plant and animal matter </h4>
+            <img src="" alt="Omnivores">
+            <a href="https://en.wikipedia.org/wiki/Omnivore" target="_blank"> Click here to read more </a>
+        </article>
+        <br>
+        <figure>
+            <img src="images-videos-sounds\animals .jpg" alt="carnivores-herbivores-omnivores-animals">
+            <figcaption>carnivores-herbivores-omnivores-animals</figcaption>
+        </figure>
+    </section>
+    <hr>
+    <h4>this following audio has source as an attribute , it doesn't have different types </h4>
+    <audio controls src="images-videos-sounds\Ayat1(1).mp3">
+        This audio extension is not supported in your browser !
+    </audio>
+    <h4>
+        you can look up mime types from
+        <a href="https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types">here</a>
+    </h4>
+    <h4>
+        this following audio is sourced inside with a source tag , we can put different Mime types for the browser to
+        pick from
+        <br>
+        # we are going to add autoplay & loop attributes for this audio ,
+        # note that media won't be autoplayed if there is a block-autoplay feature in your browser
+    </h4>
+    <audio controls autoplay loop>
+        <source src="images-videos-sounds\file_example_mp3_1MG.mp3" type="audio/mpeg">
+        <source src="images-videos-sounds\file_example_aac_1MG.aac" type="audio/aac">
+        <source src="images-videos-sounds\file_example_WAV_1MG.wav" type="audio/wav">
+        Your browser couldn't play the file in any of these formats : mp3 , wave and aac
+    </audio>
+    <br>
+    <p>
+        same thing goes for the video , so we will skip adding different sources here <br>
+        # poster attribute in video allows the viewer to see an image till the video loading finishes <br>
+        # we put description/subtitles files in track tag to aid video accessibility <br>
+
+        #preload attribute
+        <br>
+        The preload attribute allows the author to provide a hint to the browser about when to load
+        <br>
+        the video The preload attribute is ignored if autoplay is present.
+    <ul>
+        <li>auto:The author thinks that the browser should load the entire video when the page loads</li>
+        <li>metadata:The author thinks that the browser should load only metadata (info about media) when the page loads
+        </li>
+        <li>none:The author thinks that the browser should NOT load the video when the page loads</li>
+    </ul>
+    </p>
+    <video src="images-videos-sounds\video1.mp4" controls muted width="400" height="300"
+        poster="images-videos-sounds\journey of life .jpg">
+        <track src="" kind="subtitles" srclang="en-US" label="">
+
+        Your browser doesn't support the mp4 format
+    </video>
+    <hr>
+    <h4 style="text-align: center;">تكليفات الدروس من الدرس 24 إلى 27 </h4>
+
+    <form action="test.py" method="post">
+        <!-- best way to make the label and input is this :
+        <label for="my-input">Label text:</label>
+        <input type="text" id="my-input"> -->
+
+
+        <label>Choose a User name</label>
+        <input type="text" placeholder="Input user name" name="user-name" required>
+        <br>
+        <br>
+
+        <label>Choose a password</label>
+        <input type="password" placeholder="Choose a strong Password" name="passcode">
+        <br>
+        <br>
+
+        <label>Mobile number</label>
+        <input type="text" placeholder="Your phone number" name="mobile" value="+20100 (234) 123">
+        <br>
+        <br>
+
+        <label>Email</label>
+        <input type="email" placeholder="What's your email" name="mail" required>
+        <br>
+        <br>
+
+        <label>Subject</label>
+        <input type="text" placeholder="Prefered subject" name="sub">
+        <br>
+        <br>
+
+        <input type="number" value="69" hidden name="id">
+        <input type="range" min="0" max="400" step="10" value="0" name="ranged-value">
+        <br>
+        <br>
+
+        <input type="color" name="color picked">
+        <br>
+        <input type="reset" value="Empty Form" name="delete-all">
+        <br>
+        <input type="submit" value="Send Data">
+    </form>
+    <br>
+    <br>
+    <figure>
+        <img src="images-videos-sounds\query string.PNG" alt="data submitted to test.py" width="55%" height="55%">
+        <figcaption>screenshot shwoing data submitted to test.py</figcaption>
+    </figure>
+    <hr>
+    <br>
+    <h4 style="text-align: center;">تكليفات الدروس من الدرس 28 إلى 30 </h4>
+    <br>
+    <form method="get">
+        <label hidden> Token </label>
+        <input type="text" hidden value="b92f1fc2fce391ad7af633723afd3055">
+        <br>
+        <label> Email(un-editable) </label>
+        <input type="text" value="o@o.com" readonly name="">
+        <br>
+        <label> Nickname </label>
+        <input type="text" minlength="5" maxlength="20" required>
+        <br>
+
+        <br>
+
+        <fieldset name="Check-box A">
+            <legend>Skills</legend>
+            <input id="cb1" type="checkbox" value="Problem Solving" name="Check-box option 1" checked>
+            <label for="cb1">Problem Solving</label>
+            <br>
+            <input id="cb2" type="checkbox" value="Logical Thinking" name="Check-box option 2">
+            <label for="cb2">Logical Thinking</label>
+            <br>
+            <input id="cb3" type="checkbox" value="Advanced Search" name="Check-box option 3">
+            <label for="cb3">Advanced Search</label>
+            <br>
+            <input id="cb4" type="checkbox" value="Analysis" name="Check-box option 4">
+            <label for="cb4">Analysis</label>
+            <br>
+            <input id="cb5" type="checkbox" value="Planning" name="Check-box option 5">
+            <label for="cb5">Planning</label>
+        </fieldset>
+        <br>
+        <br>
+
+        <fieldset name="Radio-list A">
+            <legend>job</legend>
+            <input id="rl1" type="radio" value="Front-End Developer" name="Radio-list option 1">
+            <label for="rl1">Front-End Developer</label>
+            <br>
+            <input id="rl2" type="radio" value="Back-End Developer" name="Radio-list option 2" checked>
+            <label for="rl2">Back-End Developer</label>
+            <br>
+            <input id="rl3" type="radio" value="Business Analyst" name="Radio-list option 3">
+            <label for="rl3">Business Analyst</label>
+            <br>
+            <input id="rl4" type="radio" value="Project Manager" name="Radio-list option 4">
+            <label for="rl4">Project Manager</label>
+            <br>
+            <input id="rl5" type="radio" value="Scrum Master" name="Radio-list option 5">
+            <label for="rl5">Scrum Master</label>
+        </fieldset>
+
+        <br>
+        <br>
+        <label for="select list 1">Which programming language do you know</label>
+        <select name="programming language" id="select list 1">
+            <optgroup label="PHP" multiple>
+                <option value="V5.0"> the fifth version</option>
+                <option value="V6.0"> the sixth version</option>
+                <option value="V7.0"> the seventh version</option>
+            </optgroup>
+
+            <optgroup label="Python" multiple>
+                <option value="what will be sent"> basic </option>
+                <option value="what will be sent"> advanced </option>
+            </optgroup>
+
+            <optgroup label="Operating system">
+                <option value="Mac"> Mac OS</option>
+                <option value="Linux"> Linux OS</option>
+                <option value="Windows" selected> Windows OS</option>
+            </optgroup>
+
+        </select>
+        <br>
+        <br>
+        <textarea name="text area 1" id="TA 1" cols="30" rows="10" placeholder="What's your story" wrap="hard"
+            maxlength="2000">
+        </textarea>
+        <br>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+        <br>
+        <br>
+
+    </form>
+    <hr>
+    <h4 style="text-align: center;">تكليفات الدروس من الدرس 31 إلى 34 </h4>
+    <h5> #please note that the next form has a novalidate attribute , it will send the input regardless if it's valid or
+        not
+        <br># to set the intial date and month value we input them first in the website from inspect then write them in
+        our code
+    </h5>
+    <form action="new.php" method="get" novalidate>
+        <label>Search</label>
+        <input type="search" name="search input" placeholder="Enter A Search Word">
+        <br>
+        <br>
+        <label>Link</label>
+        <input type="url" name="User input link" required>
+        <br>
+        <br>
+        <label>Upload a file</label>
+        <input type="file" name="user's file">
+        <br>
+        <br>
+        <input type="date" value="25/10/1982">
+        <br>
+        <br>
+        <input type="month" value="October-1982">
+        <br>
+        <br>
+        <input type="reset" value="Empty">
+        <input type="submit" value="Send">
+
+    </form>
+
+    <br>
+    <br>
+    <h3>this is a preformatted code text , it looks like this </h3>
+    <pre>
+        <code>
+    Hello Line One
+    Hello Line Two
+    Hello Line Three
+        Hello Line Four
+        </code>
+</pre>
+    <br>
+    <br>
+    <h3>This is below is called an ifram which allows you to import a certain webpag into a specific frame </h3>
+    <iframe
+        src="https://free.timeanddate.com/countdown/i8q2223b/n53/cf114/cm0/cu4/ct0/cs0/ca0/co1/cr0/ss0/cac000/cpc000/pcfff/tceac8d5/fs100/szw320/szh135/tatTime%20left%20to%20Event%20in/tac000/tptTime%20since%20Event%20started%20in/tpc000/iso2023-02-16T00:00:00"
+        allowtransparency="true" frameborder="0" width="320" height="135"></iframe>
+
+
+    <footer>
+        <p>This is a footer , © Hazem khaled </p>
+        <q> <bdi> (صلى الله عليه و سلم) </bdi> <strong> prophet muhammad </strong></q>
+
+    </footer>
+
+
+</body>
+
+</html>
+
+<!-- Use the button element to create a clickable button. For example, <button>Click
+ Here</button> creates a button with the text Click Here.
+
+Add a button element with the text Submit below the input element. The default behavior of clicking a form button without any attributes submits the form
+ to the location specified in the form's action attribute.
+
+
+Even though you added your button below the text input, they appear next to each other on the page.
+ That's because both input and button elements are inline elements, which don't appear on new lines.
+
+The button you added will submit the form by default. However, relying on default behavior may cause confusion.
+ Add the type attribute with the value submit to the button to make it clear that it is a submit button.
+-->
+
+<!-- 
+    <label> <input type="radio"> Indoor</label>
+if you nest an input type inside a label , clicking the label will click the input too 
+
+also this works
+<input id="loving" type="checkbox"> <label for="loving">Loving</label>
+-->
+
+<!--
+ Notice that both radio buttons can be selected at the same time. To make it so selecting one radio button 
+automatically deselects the other, both buttons must have a name attribute with the same value.
+
+<label><input id="indoor" type="radio" name="indoor-outdoor"> Indoor</label>
+<label><input id="outdoor" type="radio" name="indoor-outdoor"> Outdoor</label> 
+-->
