@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+
+}
+/* Styling the global container */
+.flexbox-global-container {
+    display: flex;
+    width: 900px;
+    height: 900px;
+    border: 4px solid green;
+    flex-direction: column;
+}
+
+/* styling the 3 main flexbox-item-container  */
+.flexbox-item1,.flexbox-item3 {
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    height: 200px;
+    margin: 4px;
+
+}
+
+.flexbox-item2 {
+    border: 2px solid brown;
+    background-color: pink;
+    height: 500px;
+    margin: 4px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* Styling items inside the first flexbox-item-container */
+.flexbox-item1-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    padding: 3px;
+    box-sizing: border-box;
+}
+
+.flexbox-item1-container div {
+    width: 150px;
+    border: .5px solid purple;
+    background-color: gold;
+
+}
+
+.flexbox-item1-child {
+    width: 300px;
+    border: 2px solid darkolivegreen;
+    background-color: lightcyan;
+}
+
+
+/* Styling items inside the second flexbox-item-container */
+.flexbox-item2-box1{
+    width: 450px;
+    height: 500px;
+
+    align-self: flex-start;
+    justify-self: flex-start;
+    border: 2px solid red;
+}
+
+.flexbox-item2-box2 {
+width: 450px;
+height: 500;
+border: 2px solid black;
+display: flex;
+flex-direction: column;
+}
+
+.flexbox-item2-box2-child {
+    height: 250px;
+    border: 1px solid blue;
+
+}
+
+/* Styling items inside the third flexbox-item-container */
+.flexbox-item3-child.double {
+    width: 300px;
+    border: 2px solid darkolivegreen;
+    background-color: lightcyan;
+}
+
+.flexbox-item3-child.single {
+    width: 150px;
+    border: 2px solid darkolivegreen;
+    background-color: gold;
+}
