@@ -1,0 +1,7 @@
+#1 
+Some good places to find free-to-use images on the web include Pexels, Pixabay, and Unsplash.
+
+
+#2 Games to Practice flexbox
+Flexbox Froggy is a funny little game for practicing moving things around with flexbox.    --->       https://flexboxfroggy.com/
+Flexbox Zombies is another gamified take on flexbox. Free, but requires an account.       --->       https://mastery.games/flexboxzombies/
